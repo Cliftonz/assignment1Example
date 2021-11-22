@@ -13,5 +13,4 @@ public class Assignment1 {
         Double FutureInvestment = 0.0; // replace 0.0 with your code
         return FutureInvestment;
     }
-
 }
