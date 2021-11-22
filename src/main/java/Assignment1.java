@@ -3,14 +3,13 @@ public class Assignment1 {
 
     /**
      * In this section you need to explain what each input is and what it does in the function and explain the output.
-     * @param investmentAmount
-     * @param monthlyInterestRate
-     * @param numberOfYears
-     * @return
+     * @param investmentAmount initial investment amount
+     * @param monthlyInterestRate interest rate over every month as a percentage
+     * @param numberOfYears integer representing the number of year to calculate the growth of the investment amount
+     * @return possible earnings
      */
-    public static double CalculateFutureInvestment(int investmentAmount, double monthlyInterestRate, double numberOfYears){
-        Double FutureInvestment = 0.0; // replace 0.0 with your code
-        return FutureInvestment;
+    public static double CalculateFutureInvestment(int investmentAmount, double monthlyInterestRate, int numberOfYears){
+        return investmentAmount * Math.pow((1 + monthlyInterestRate / 100), numberOfYears * 12 );
     }
 
 }
