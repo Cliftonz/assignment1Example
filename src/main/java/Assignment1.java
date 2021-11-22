@@ -9,6 +9,7 @@ public class Assignment1 {
      * @return
      */
     public static double CalculateFutureInvestment(int investmentAmount, double monthlyInterestRate, double numberOfYears){
+        // Note monthlyInterestRate comes in as a percentage you will need to convert it to decimal form.
         Double FutureInvestment = 0.0; // replace 0.0 with your code
         return FutureInvestment;
     }
